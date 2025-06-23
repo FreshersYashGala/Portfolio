@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-VariableFont_wght.ttf');
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #f9f9f9;
+    background-image: url("images/BackGround_Image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.img-logo{
+    height: 50px;
+    width: 50px;
+    float: left;
+   border-radius: 20%;
+}
+
+
+
+.home-navbar{
+width: 100%;
+overflow-x: auto ;
+    
+    background-color: #f9f9f9;
+    border-bottom:1px solid #e5e7eb ;
+}
+
+.home-nav-ul {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 0.5rem 1rem;
+    
+    margin: 0;
+    list-style: none;
+    gap: 1rem;
+    scrollbar-width: none;
+  }
+  .home-nav-ul::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
+
+  .home-nav-li .home-nav-a {
+    margin-top: 2px;
+    font-size: 20px;
+    position: sticky;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    color: #374151;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Change the link color on hover */
+  .home-nav-li .home-nav-a:hover {
+    background-color: #aeafb3; /* #f3f4f6;*/
+    color: #1f2937;
+    /* border: 0.2px solid #aeafb3; */
+    border-radius: 20px 20px 20px 20px;
+  }
