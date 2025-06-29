@@ -75,3 +75,70 @@ overflow-x: auto ;
     /* border: 0.2px solid #aeafb3; */
     border-radius: 20px 20px 20px 20px;
   }
+  .aboutme {
+    padding: 2rem 1.5rem;
+    max-width: 900px;
+    margin: 2rem auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    font-family: 'Montserrat', sans-serif;
+display: grid;
+
+  }
+  .label
+  {
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+  }
+  
+  .greet {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+  }
+  
+  .myName {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #374151;
+    margin-bottom: 1.5rem;
+  }
+  
+  .ConBod {
+    display: block;
+    font-size: 1rem;
+    color: #4b5563;
+    line-height: 1.7;
+  }
+  
+  /* Bottom Section with Subtopics */
+  .bottom-Section {
+    margin-top: 2rem;
+    border-top: 1px solid #e5e7eb;
+    padding-top: 1.5rem;
+    color: #374151;
+    font-size: 0.95rem;
+  }
+  
+  .section-title {
+    font-weight: 600;
+    color: #111827;
+    font-size: 1.1rem;
+  }
+  @media (max-width: 640px) {
+    .greet {
+      font-size: 2rem;
+    }
+  
+    .myName {
+      font-size: 1.5rem;
+    }
+  
+    .ConBod {
+      font-size: 0.95rem;
+    }
+  }
+  
